@@ -1,6 +1,6 @@
 export default function TypoH1({Element = 'h1', className = '', children, ...rest}) {
     return (
-        <Element className={`text-3.5xl lg:text-5xl ${className}`} {...rest}>
+        <Element className={`text-4xl lg:text-5xl ${className}`} {...rest}>
             {children}
         </Element>
     )

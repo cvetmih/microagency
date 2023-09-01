@@ -22,13 +22,13 @@ export default function Features({className = '', children, ...rest}) {
 
     return (
         <Container className="p-section">
-            <div className="flex">
+            <div className="flex flex-col md:flex-row">
                 {features.map((item, key) => {
                     return (
                         <article key={`FeatureItem: ${key}`}
-                                 className="flex-1 flex flex-col items-center text-center"
+                                 className="flex-1 flex flex-col items-center text-center mb-16 md:mb-0"
                         >
-                            <header className="mb-6">
+                            <header className="mb-3">
                                 <TypoH3 Element="h3"
                                         className="max-w-[14ch]"
                                 >
