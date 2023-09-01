@@ -37,23 +37,24 @@ const roadmapItems = [
 
 export default function Roadmap({className = ''}) {
     return (
-        <Container className={`p-section ${className}`}>
+        <Container className={`py-section ${className}`}>
             <header className="text-center mb-6">
-                <TypoH2 className="max-w-[20ch] mx-auto">
+                <TypoH2 className="max-w-[23ch] mx-auto font-serif">
                     Připraveni na transparentní a efektivní marketing?
                 </TypoH2>
             </header>
 
-            <p className="max-w-[43ch] text-center mx-auto">
+            <p className="max-w-[48ch] text-center mx-auto">
                 Zahájení transparentní marketingové cesty je jednoduché. Zde je náš krok za krokem proces, abyste byli
                 vždy v obraze a měli důvěru v náš přístup.
             </p>
 
-            <div className="flex flex-col w-full max-w-[800px] mx-auto my-12">
+            <div className="relative flex flex-col w-full max-w-[800px] mx-auto my-12">
+                <div className="absolute top-[8%] left-1/2 w-0 h-[84%] border-[2px] border-dotted"></div>
                 {roadmapItems.map((item, key) => {
                     return (
                         <section key={`RoadmapItem: ${key}`}
-                                 className={`max-w-[400px] mb-12 last-of-type:mb-0 bg-white p-4 text-black rounded-xl ${key % 2 === 0 ? 'self-end' : 'self-start'}`}
+                                 className={`max-w-[400px] mb-12 last-of-type:mb-0 bg-white p-4 lg:p-6 text-black rounded-xl transition-transform duration-300 will-change-transform mouse-hover:-translate-y-2 ${key % 2 === 0 ? 'self-end md:-mr-6' : 'self-start md:-ml-6'}`}
                         >
                             <header className="mb-3">
                                 <TypoP1 Element="h3"

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Open+Sans:wght@300;400&family=Yeseva+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,17 +16,17 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, .04);
 }
 
-.p-section {
-    @apply py-24;
+.list-pushed {
+    margin-left: 1.125rem;
 }
 
 .button {
     @apply relative inline-flex;
-    @apply text-base uppercase font-medium leading-normal;
+    @apply text-base font-medium leading-normal rounded-full;
+    @apply tracking-wider font-medium;
     @apply transition-colors duration-300;
     @apply border-2;
 
-    /*@apply mouse-hover:text-white;*/
 }
 
 .button-big {
@@ -33,6 +35,7 @@ html {
 
 .button-primary {
     @apply bg-white text-black border-white;
+    @apply mouse-hover:text-white mouse-hover:bg-black mouse-hover:border-white/20;
 }
 
 .button-secondary {

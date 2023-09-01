@@ -12,8 +12,8 @@ export default function RootLayout({children}) {
         <head>
             <title>Microagency</title>
         </head>
-        <body className="antialiased bg-black text-white text-base font-sans flex flex-col min-h-screen">
-        <main className="bg-black flex-1 leading-[1.3]">
+        <body className="antialiased bg-black text-white text-base font-sans tracking-wide flex flex-col min-h-screen leading-normal font-light">
+        <main className="bg-black flex-1">
             {children}
         </main>
         <Footer/>

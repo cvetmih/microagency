@@ -9,6 +9,14 @@ module.exports = {
     ],
     theme: {
         extend: {
+            spacing: {
+                'section': '8rem'
+            },
+            fontFamily: {
+                'serif': ['Yeseva One', 'serif'],
+                'sans': ['Open Sans', 'sans-serif'],
+                'display': ['Comfortaa', 'sans-serif'],
+            },
             colors: {
                 black: '#000',
                 white: '#fff'

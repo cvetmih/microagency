@@ -4,10 +4,10 @@ import TypoH2 from "@/components/TypoH2";
 export default function Lead({className = '', children, ...rest}) {
 
     return (
-        <Container className="p-section">
+        <Container className="py-section">
             <header className="text-center mb-6">
                 <TypoH2>
-                    S námi pochopíte rozdíl.
+                    S námi pochopíte <span className="text-blue-500">rozdíl</span>.
                 </TypoH2>
             </header>
 

@@ -21,7 +21,7 @@ const features = [
 export default function Features({className = '', children, ...rest}) {
 
     return (
-        <Container className="p-section">
+        <Container className="py-section">
             <div className="flex flex-col md:flex-row">
                 {features.map((item, key) => {
                     return (
@@ -30,7 +30,7 @@ export default function Features({className = '', children, ...rest}) {
                         >
                             <header className="mb-3">
                                 <TypoH3 Element="h3"
-                                        className="max-w-[14ch]"
+                                        className="max-w-[16ch] font-semibold leading-[1.1] lg:leading-[1.1]"
                                 >
                                     {item.title}
                                 </TypoH3>
