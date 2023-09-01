@@ -2,26 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Safari 15 gray border bug fix */
+/* https://nextjs.org/docs/api-reference/next/image */
+@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+    img[loading="lazy"] {
+        clip-path: inset(0.6px)
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, .04);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.p-section {
+    @apply py-24;
+}
+
+.button {
+    @apply relative inline-flex;
+    @apply text-base uppercase font-medium leading-normal;
+    @apply transition-colors duration-300;
+    @apply border-2;
+
+    /*@apply mouse-hover:text-white;*/
+}
+
+.button-big {
+    @apply py-2 px-6;
+}
+
+.button-primary {
+    @apply bg-white text-black border-white;
+}
+
+.button-secondary {
+    @apply bg-white text-black border-black;
+    @apply mouse-hover:bg-black mouse-hover:text-white;
 }
