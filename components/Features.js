@@ -5,7 +5,7 @@ const features = [
     {
         title: 'Jednoduchá nastavení reklam',
         body: 'Nezkomplikováváme věci. Naše reklamní nastavení je přímé, což zajišťuje, že dostanete to nejlepší bez zmatků.',
-        character: <div>&#10035;</div>
+        character: <div>&#10033;</div>
     },
 
     {
