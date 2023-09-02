@@ -18,8 +18,8 @@ module.exports = {
                 'display': ['Comfortaa', 'sans-serif'],
             },
             colors: {
-                black: '#000',
-                white: '#fff'
+                black: '#222',
+                white: '#f6f6f6'
             }
         },
     },

@@ -9,7 +9,7 @@ export default function Button({
                                    children,
                                    ...rest
                                }) {
-    const classes = `cursor-pointer button button-${theme} button-${size} ${active ? 'button-active' : ''} ${className}`;
+    const classes = `cursor-pointer group button button-${theme} button-${size} ${active ? 'button-active' : ''} ${className}`;
 
     if (href) {
         return (
@@ -17,7 +17,10 @@ export default function Button({
                   className={classes}
                   {...rest}
             >
-                {children}
+                <div className="button-fill pointer-events-none group-hover:scale-110 transition-all duration-300"/>
+                <div className="relative">
+                    {children}
+                </div>
             </Link>
         )
     }

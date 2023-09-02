@@ -6,7 +6,7 @@ import Button from "@/components/Button";
 export default function Header({className = '', children, ...rest}) {
 
     return (
-        <Container className="pt-48 pb-section">
+        <Container className="py-section">
             <header className="mb-6">
                 <TypoH1 className="max-w-[25ch] leading-[1.2] lg:leading-[1.2]">
                     Unaveni z předražených agentur fakturující zbytečnou práci?

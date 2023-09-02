@@ -4,7 +4,7 @@ import TypoH2 from "@/components/TypoH2";
 export default function Lead({className = '', children, ...rest}) {
 
     return (
-        <Container className="py-section">
+        <Container className="pt-section pb-52">
             <header className="text-center mb-6">
                 <TypoH2>
                     S námi pochopíte <span className="text-blue-500">rozdíl</span>.

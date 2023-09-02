@@ -22,23 +22,39 @@ html {
 
 .button {
     @apply relative inline-flex;
-    @apply text-base font-medium leading-normal rounded-full;
+    @apply text-base font-medium leading-normal;
     @apply tracking-wider font-medium;
     @apply transition-colors duration-300;
-    @apply border-2;
 
+}
+
+.button-fill {
+    @apply absolute top-0 left-0;
+    @apply w-full h-full;
+    @apply rounded-full;
+    @apply bg-red-600;
+    @apply border-2;
 }
 
 .button-big {
-    @apply py-2 px-6;
+    @apply py-3 px-7;
 }
 
 .button-primary {
-    @apply bg-white text-black border-white;
-    @apply mouse-hover:text-white mouse-hover:bg-black mouse-hover:border-white/20;
+    /*@apply mouse-hover:text-white mouse-hover:bg-black mouse-hover:border-white/20;*/
+    @apply text-black;
+}
+
+.button-primary .button-fill {
+    @apply bg-white border-white;
 }
 
 .button-secondary {
-    @apply bg-white text-black border-black;
-    @apply mouse-hover:bg-black mouse-hover:text-white;
+    /*@apply bg-white text-black border-black;*/
+    /*@apply mouse-hover:bg-black mouse-hover:text-white;*/
+    @apply text-black;
+}
+
+.button-secondary .button-fill {
+    @apply bg-white border-black;
 }
