@@ -11,8 +11,7 @@ import Link from "next/link";
 export default function Home() {
     return (
         <div className="relative w-screen overflow-hidden">
-
-            <Container className="absolute top-0 left-1/2 h-full  -translate-x-1/2 pointer-events-none">
+            <Container className="absolute top-0 left-1/2 h-full -translate-x-1/2 pointer-events-none">
                 <Bubble className="w-[1000px] top-[10%] left-1/2">
                     <Bubble className="w-[400px] top-[10%] -left-[5%]"/>
                 </Bubble>
@@ -20,7 +19,7 @@ export default function Home() {
             </Container>
 
             {/*<div className="bg-white text-black">*/}
-            <Container className="py-12">
+            <Container className="py-6 md:py-12">
                 <Link href="/" className="inline-flex">
                     <Logo/>
                 </Link>

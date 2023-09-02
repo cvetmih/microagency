@@ -60,7 +60,7 @@ function Icon({icon, ...rest}) {
 
 export default function Roadmap({className = ''}) {
     return (
-        <Container className={`py-section ${className}`}>
+        <Container className={`py-24 lg:py-section ${className}`}>
             <header className="text-center mb-6">
                 <TypoH2 className="max-w-[23ch] mx-auto font-serif">
                     Připraveni na transparentní a efektivní marketing?

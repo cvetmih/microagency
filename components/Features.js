@@ -24,12 +24,12 @@ const features = [
 export default function Features({className = '', children, ...rest}) {
 
     return (
-        <Container className="pt-section lg:py-section border-y border-white/10">
+        <Container className="py-24 lg:py-section border-y border-white/10">
             <div className="flex flex-col lg:flex-row max-lg:max-w-[600px] mx-auto">
                 {features.map((item, key) => {
                     return (
                         <article key={`FeatureItem: ${key}`}
-                                 className={`relative lg:flex-1 flex flex-col items-center text-center mb-16 lg:mb-0 ${key % 2 === 0 ? 'max-lg:self-start' : 'max-lg:self-end'}`}
+                                 className="relative lg:flex-1 flex flex-col items-center text-center mb-16 last-of-type:mb-0 lg:mb-0"
                         >
                             <div className="text-6xl font-serif mb-4 opacity-20 leading-none">{item.character}</div>
                             <header className="mb-6">

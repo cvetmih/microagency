@@ -7,8 +7,8 @@ export default function Footer({className = '', children, ...rest}) {
             className={`py-12 border-t border-white/10 ${className}`}
             {...rest}
         >
-            <Container className="flex justify-between">
-                <p className="opacity-60">
+            <Container className="flex flex-col md:flex-row justify-between">
+                <p className="opacity-60 mb-6 md:mb-0">
                     &copy; 2023 Microagency
                 </p>
                 <p className="opacity-60">
