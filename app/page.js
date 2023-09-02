@@ -6,6 +6,7 @@ import Roadmap from "@/components/Roadmap";
 import Bubble from "@/components/Bubble";
 import Container from "@/components/Container";
 import Logo from "@/components/Logo";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -20,7 +21,9 @@ export default function Home() {
 
             {/*<div className="bg-white text-black">*/}
             <Container className="py-12">
-                <Logo/>
+                <Link href="/" className="inline-flex">
+                    <Logo/>
+                </Link>
             </Container>
             {/*</div>*/}
             <Header/>
