@@ -17,12 +17,14 @@ export default function Problem({className = '', children, ...rest}) {
                 Vás z toho začarovaného kruhu vysvobodili.
                 <br/>
                 <br/>
-                S 10 lety v oboru jsme si vyladili naše metody na to, co
-                skutečně funguje. Žádné zbytečnosti, žádné nepotřebné úkoly. Pouze přímé strategie v rukou AI, které
-                skutečně přinášejí výsledky. Věříme v transparentnost, férové cenovky a přímou komunikaci.
+                S 10 lety v oboru jsme si vyladili naše metody na to, co skutečně funguje. Žádné zbytečnosti, žádné
+                nepotřebné úkoly. Pouze přímé strategie v rukou umělé inteligence, které skutečně přinášejí výsledky.
+                Věříme v transparentnost, férové cenovky a přímou komunikaci.
                 <br/>
                 <br/>
-                <b>Pokud si ceníte upřímnosti a výsledků více než složitého žargonu, jste na správném místě.</b>
+                <b>
+                    Pokud si ceníte upřímnosti a výsledků více než složitého žargonu, jste na správném místě.
+                </b>
             </p>
         </Container>
     )

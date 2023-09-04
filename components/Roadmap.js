@@ -13,7 +13,7 @@ const roadmapItems = [
     {
         title: 'Kontaktujte nás',
         icon: 'contact',
-        body: 'Zavolejte nám, napište e-mail nebo vyplňte náš kontaktní formulář. Jsme tady, abychom vás vyslechli.'
+        body: 'Zavolejte nám, napište e-mail nebo vyplňte náš kontaktní formulář.'
     },
 
     {
@@ -62,8 +62,8 @@ export default function Roadmap({className = ''}) {
     return (
         <Container className={`py-24 lg:py-section ${className}`}>
             <header className="text-center mb-6">
-                <TypoH2 className="max-w-[23ch] mx-auto font-serif">
-                    Připraveni na transparentní a efektivní marketing?
+                <TypoH2 className="max-w-[25ch] mx-auto font-serif">
+                    Připraveni ušetřit čas a peníze?
                 </TypoH2>
             </header>
 
@@ -103,7 +103,7 @@ export default function Roadmap({className = ''}) {
 
             <div className="text-center">
                 <Button href="#">
-                    Začněte svou cestu s námi
+                    Optimalizujte s námi!
                 </Button>
             </div>
         </Container>

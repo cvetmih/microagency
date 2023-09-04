@@ -11,9 +11,9 @@ export default function Lead({className = '', children, ...rest}) {
                 </TypoH2>
             </header>
 
-            <p className="max-w-[42ch] text-center mx-auto">
-                S námi ušetříte peníze, energii a co je nejdůležitější, čas! Pojďme
-                předefinovat marketing tak, aby byl transparentní, efektivní a skutečně prospěšný pro váš podnik.
+            <p className="max-w-[50ch] text-center mx-auto">
+                Ušetříte peníze, energii a co je nejdůležitější, čas! Nastavujeme marketing férově a tak, aby byl
+                transparentní, efektivní a dlouhodobě prospěšný pro váš podnik.
             </p>
         </Container>
     )

@@ -4,16 +4,15 @@ import TypoH3 from "@/components/TypoH3";
 const features = [
     {
         title: 'Jednoduchá nastavení reklam',
-        body: 'Nezkomplikováváme věci. Naše reklamní nastavení je přímé, což zajišťuje, že dostanete to nejlepší bez zmatků.',
+        body: 'Nic nekomplikujeme. Naše reklamní nastavení je přímé, což zajišťuje, že dostanete to nejlepší a bez zmatků. Využíváme sílu AI ke zdokonalování Vašich reklam.',
         character: <div>&#10033;</div>
     },
 
     {
-        title: 'Kreativní řešení poháněná AI',
-        body: 'Využíváme sílu AI k zdokonalování Vašich reklam, které rezonují a konvertují.',
+        title: 'Měsíční paušál',
+        body: 'Náš měsíční paušál 5000,- korun vám usnadňuje plánování rozpočtu. Už žádné neočekávané poplatky. Každý měsíc platíte stejnou částku a my uděláme veškerou potřebnou práci. Jsme zde, abychom vám usnadnili vaše podnikání.',
         character: <div>&#10043;</div>
     },
-
     {
         title: 'Transparentní zprávy',
         body: 'Žádná kosmetika čísel. Představujeme výsledky tak, jak skutečně jsou, abyste mohli činit informovaná rozhodnutí.',

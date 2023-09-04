@@ -9,10 +9,11 @@ export default function Footer({className = '', children, ...rest}) {
         >
             <Container className="flex flex-col md:flex-row justify-between">
                 <p className="opacity-60 mb-6 md:mb-0">
-                    &copy; 2023 Microagency
+                    &copy; 2023 RAW Entertainment s.r.o.
                 </p>
                 <p className="opacity-60">
-                    IČO: 12345678
+                    IČO: 06039839<br/>
+                    Microagency
                 </p>
             </Container>
         </footer>

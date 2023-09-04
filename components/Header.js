@@ -8,24 +8,24 @@ export default function Header({className = '', children, ...rest}) {
     return (
         <Container className="pt-16 lg:py-section">
             <header className="mb-6">
-                <TypoH1 className="max-w-[25ch] leading-[1.2] lg:leading-[1.2]">
-                    Unaveni z předražených agentur fakturující zbytečnou práci?
+                <TypoH1 className="max-w-[18ch] leading-[1.2] lg:leading-[1.2]">
+                    Unaveni z předražených agentur?
                 </TypoH1>
             </header>
 
-            <TypoH2 className="max-w-[36ch] mb-12 leading-[1.25] lg:leading-[1.25]">
+            <TypoH2 className="max-w-[38ch] mb-12 leading-[1.25] lg:leading-[1.25]">
                 Zažijte cenově dostupný a přesto efektivní marketing. Zjednodušený desetiletými zkušenostmi a pokročilou
-                AI.
+                umělou inteligencí.
             </TypoH2>
 
             <ul className="mb-12 list-disc list-pushed list-outside">
-                <li className="mb-2">Zjednodušené nastavení reklamy pro FaceBook a Instagram</li>
-                <li className="mb-2">Řešení spolutvořené AI</li>
-                <li>Transparentní výsledky</li>
+                <li className="mb-2">Zjednodušené nastavení reklamy pro Facebook, Instagram a Youtube</li>
+                <li className="mb-2">Řešení spolutvořené umělou inteligencí</li>
+                <li>Transparentní použitelné výsledky</li>
             </ul>
 
             <Button href="#">
-                Zjistit vice
+                Konzultace zdarma!
             </Button>
         </Container>
     )
