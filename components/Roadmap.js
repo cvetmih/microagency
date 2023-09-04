@@ -67,11 +67,6 @@ export default function Roadmap({className = ''}) {
                 </TypoH2>
             </header>
 
-            <p className="max-w-[48ch] text-center mx-auto">
-                Zahájení transparentní marketingové cesty je jednoduché. Zde je náš krok za krokem proces, abyste byli
-                vždy v obraze a měli důvěru v náš přístup.
-            </p>
-
             <div className="relative flex flex-col items-center w-full max-w-[800px] mx-auto my-12">
                 <div className="absolute top-[8%] left-1/2 w-0 h-[84%] border-[2px] border-dashed opacity-50"></div>
                 {roadmapItems.map((item, key) => {

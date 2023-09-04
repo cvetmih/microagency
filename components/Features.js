@@ -10,7 +10,7 @@ const features = [
 
     {
         title: 'Měsíční paušál',
-        body: 'Náš měsíční paušál 5000,- korun vám usnadňuje plánování rozpočtu. Už žádné neočekávané poplatky. Každý měsíc platíte stejnou částku a my uděláme veškerou potřebnou práci. Jsme zde, abychom vám usnadnili vaše podnikání.',
+        body: 'Náš měsíční paušál 5000,- korun vám usnadňuje plánování rozpočtu. Už žádné neočekávané poplatky. Jsme zde, abychom vám usnadnili vaše podnikání.',
         character: <div>&#10043;</div>
     },
     {
