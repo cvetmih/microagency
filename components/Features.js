@@ -9,7 +9,7 @@ const features = [
     },
 
     {
-        title: 'Měsíční paušál',
+        title: 'Jednotný měsíční paušál',
         body: 'Náš měsíční paušál 5000,- korun vám usnadňuje plánování rozpočtu. Už žádné neočekávané poplatky. Jsme zde, abychom vám usnadnili vaše podnikání.',
         character: <div>&#10043;</div>
     },
