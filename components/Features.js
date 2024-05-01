@@ -9,8 +9,8 @@ const features = [
     },
 
     {
-        title: 'Jednotný měsíční paušál',
-        body: 'Náš měsíční paušál 5000,- korun vám usnadňuje plánování rozpočtu. Už žádné neočekávané poplatky. Jsme zde, abychom vám usnadnili vaše podnikání.',
+        title: 'Měsíční paušál 5000,- Kč',
+        body: 'Náš měsíční paušál vám usnadňuje plánování rozpočtu. Už žádné neočekávané poplatky. Jsme zde, abychom vám usnadnili vaše podnikání.',
         character: <div>&#10043;</div>
     },
     {
@@ -38,7 +38,7 @@ export default function Features({className = '', children, ...rest}) {
                                     {item.title}
                                 </TypoH3>
                             </header>
-                            <p className="max-w-[34ch]">
+                            <p className="max-w-[30ch]">
                                 {item.body}
                             </p>
                         </article>
